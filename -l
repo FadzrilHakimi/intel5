@@ -1,0 +1,60 @@
+[33mcommit 555870466ced1937824bfbb3df21a4ec1aa14177[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: d3d0ca0 1bd2629
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Tue May 7 02:23:35 2024 +0000
+
+    resolved conflict for file1
+
+[33mcommit d3d0ca0297b2a2ef4c9a480b56f31e4a1f912a14[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Tue May 7 02:03:43 2024 +0000
+
+    Fixed security in file1 main branch
+
+[33mcommit 4b6c7912605410947c30e558dc254039fb65af77[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Tue May 7 02:03:31 2024 +0000
+
+    added file5 in main branch
+
+[33mcommit 1bd262978781da6df03022d667ad845ba1154251[m[33m ([m[1;32mdev[m[33m)[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Tue May 7 02:01:23 2024 +0000
+
+    added function1 in file1 in dev
+
+[33mcommit ad50ab4ad4692eac7051621711cf8bca7741f7e8[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Tue May 7 02:00:58 2024 +0000
+
+    added feature1
+
+[33mcommit 1c5729e509a7878ec96d98ac2c0e613172c4ea8c[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Mon May 6 04:48:02 2024 +0000
+
+    added file4
+
+[33mcommit 4d0bfaa2378be4018e18fc125373816be44b3d7f[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Mon May 6 04:46:39 2024 +0000
+
+    added file3 in dev branch
+
+[33mcommit b3919ba59ce2a8508cc6a212984237ced62037ee[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Mon May 6 04:21:59 2024 +0000
+
+    adding content in file1
+
+[33mcommit 11fc885d48d39f9de3254e1c96b14380365bac39[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Mon May 6 04:18:11 2024 +0000
+
+    added file2 for testing
+
+[33mcommit 8827b40361214669f1bd0168659543bc647322a1[m
+Author: Fadzril <mohd.fadzril.hakimi@intel.com>
+Date:   Mon May 6 03:55:32 2024 +0000
+
+    added file1 for testing
