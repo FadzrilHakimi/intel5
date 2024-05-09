@@ -36,10 +36,4 @@ jobs:
       - name: my step2
         run: echo "hello from fadzril"
       - run: echo "hello from step3"
-      - name: my step4 for testing multiple lines of code execution
-        run: |
-          ls -l
-          pwd
-          sudo cat /etc/os-release
-          uname -a
-          echo "final step4 execution done"
+  
