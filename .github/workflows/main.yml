@@ -28,7 +28,7 @@ jobs:
           sudo cat /etc/os-release
           uname -a
           echo "final step4 execution done"
-   job2:
+ job2:
     runs-on: ubuntu-latest
     steps:
       - name: step1
