@@ -23,7 +23,7 @@ jobs:
           hostname
       - name: my step2
         run: |
-          echo "hello from gagan"
+          echo "hello from fadzril"
           sleep 10
       - run: |
           echo "hello from step3"
@@ -45,5 +45,5 @@ jobs:
            hostname
       - name: my step2
         run: |
-          echo "hello from gagan"  
+          echo "hello from fadzril"  
           sleep 10
