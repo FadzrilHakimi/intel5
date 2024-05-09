@@ -16,6 +16,6 @@ jobs:
         run: |
           ls -l
           pwd
-          sudo cat /ect/os-release
+          sudo cat /etc/os-release
           uname -a
           echo "final step4 execution done"
