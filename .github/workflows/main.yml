@@ -9,3 +9,13 @@ jobs:
     steps:
       - name: step1
         run: echo "hello from step1, job1 of workflow1"
+      - name: my step2
+        run: echo "hello from fadzril"
+      - run: echo "hello from step3"
+      - name: my step4 for testing multiple lines of code execution
+        run: |
+          ls -l
+          pwe
+          sudo cat /ect/os-release
+          uname -a
+          echo "final step4 execution done"
