@@ -36,7 +36,7 @@ jobs:
           uname -a
           echo "final step4 execution done"
   job2: 
-    runs-on: fadzril
+    runs-on: ubuntu-latest
     steps:
       - name: step1
         run: |
