@@ -10,18 +10,18 @@ on:
   workflow_dispatch:
 # Testing our first workflow
 env: 
-  name: Gagandeep
+  name: Fadzril
 jobs:
   build: 
     runs-on: ubuntu-latest
     env:
       environment: dev
-      lastname: singh
+      lastname: hakimi
     steps:
       - name: step1
         env:
           greetings: GoodMorning
-          name: Sandeep
+          name: Fadzril
         run: |
           echo "$greetings from $name $lastname, job1 of workflow1 running in environment $environment"
           sleep 10
@@ -41,7 +41,7 @@ jobs:
           uname -a
           echo "final step4 execution done"
   test: 
-    runs-on: gagan
+    runs-on: fadzril
     env:
       environment: staging
     steps:
