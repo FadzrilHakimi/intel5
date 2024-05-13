@@ -19,15 +19,17 @@ jobs:
       lastname: hakimi
     steps:
       - name: step1
+        if: runner.os == 'Linux'
         env:
           greetings: GoodMorning
           name: Fadzril
         run: |
-          echo "$greetings from $name $lastname, job1 of workflow1 running in environment ${{ vars.environment}}"
+          echo "$greetings from $name $lastname, job1 of workflow1 in repository ${{ GITHUB.REPOSITORY }} running in environment ${{ vars.environment}} on RUNNER OS ${{ runner.os }}"
           echo "Running on server ${{ vars.servername}} with credentials ${{ secrets.SERVER_PASSWD }} and API KEY ${{ secrets.APIKEY }} "
           sleep 10
           hostname
       - name: my step2
+        if: runner.os == 'Windows'
         run: |
           echo "$greetings from $name"
           sleep 10
@@ -43,6 +45,7 @@ jobs:
           echo "final step4 execution done"
   test: 
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     environment: test
     steps:
       - name: step1
