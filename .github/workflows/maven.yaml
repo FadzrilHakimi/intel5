@@ -14,4 +14,4 @@ jobs:
           java-version : "11"
           cache: "mavan"
       - name: verify java
-         run: java-version
+         run: java -version
